@@ -41,6 +41,9 @@ import { DecideActComponent } from './panels/decide-act/decideact.component';
 // Network Visualization
 import { NetworkVisualizationComponent } from './panels/network-visualization/network-visualization.component';
 
+// Custom panel
+import { CustomPanelComponent } from './panels/custom-panel/custom-panel.component';
+
 // Recommender System Visualization
 import { RecommenderSystemVisualizationComponent } from './panels/recommender-system-visualization/recommender-system-visualization.component';
 
@@ -109,6 +112,7 @@ import { MatSelectModule } from '@angular/material/select';
     MissionsGraphComponent,
     ConfigurationComponent,
     NetworkVisualizationComponent,
+    CustomPanelComponent,
     VulnerabilityComponent,
     RecommenderSystemVisualizationComponent,
     SpreadProjectionVisualizationComponent,
