@@ -5,4 +5,4 @@ sudo neo4j restart
 cd crusoe_orient
 npm run start &
 cd ../graphql-api 
-npm run start &
+npm run start
