@@ -42,7 +42,7 @@ import { DecideActComponent } from './panels/decide-act/decideact.component';
 import { NetworkVisualizationComponent } from './panels/network-visualization/network-visualization.component';
 
 // Custom panel
-import { CustomPanelComponent } from './panels/custom-panel/custom-panel.component';
+import { MissionPanelComponent } from './panels/mission-panel/mission-panel.component';
 
 // Recommender System Visualization
 import { RecommenderSystemVisualizationComponent } from './panels/recommender-system-visualization/recommender-system-visualization.component';
@@ -63,6 +63,7 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { AuthSectionComponent } from './shared/components/auth-section/auth-section.component';
 import { MissionsGraphComponent } from './panels/decide-act/missions-graph/missions-graph.component';
+import { OrientMissionGraphComponent } from './panels/mission-panel/orient-mission-graph/orient-mission-graph.component';
 import { ConfigurationComponent } from './panels/decide-act/configuration/configuration.component';
 import { PanelComponent } from './shared/components/panel/panel.component';
 import { NotFoundComponent } from './shared/components/not-found/not-found.component';
@@ -110,9 +111,10 @@ import { MatSelectModule } from '@angular/material/select';
     PaoComponent,
     MissionComponent,
     MissionsGraphComponent,
+    OrientMissionGraphComponent,
     ConfigurationComponent,
     NetworkVisualizationComponent,
-    CustomPanelComponent,
+    MissionPanelComponent,
     VulnerabilityComponent,
     RecommenderSystemVisualizationComponent,
     SpreadProjectionVisualizationComponent,
