@@ -9,7 +9,7 @@
   left: 0;
   top: 0;
   z-index: 3;
-  background-color: #272c33;
+  background-color: #343F5D;
 
   hr {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -17,19 +17,19 @@
 }
 
 .sidebar-heading {
-  color: #4d5766;
+  color: #F1F2F2;
 }
 
 :host .nav-link {
   display: inline-block;
   transition: 0.2s ease-out all;
   font-weight: 500;
-  color: #798699;
+  color: #F1F2F2;
   width: 100%;
 
   &.active,
   &:hover {
-    color: #fff;
+    color: #44BFEC;
   }
 
   .mat-icon {
@@ -43,7 +43,7 @@
 }
 
 :host .nav-link.active {
-  color: #fff;
+  color: #44BFEC;
 }
 
 :host .nav-link:hover .feather,
@@ -57,16 +57,16 @@
 }
 
 .brand {
-  text-align: center;
+  display: flex;
+  align-items: center;
   outline: 0;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #343F5D;
+  height: 68px;
 
   img {
-    display: inline-block;
-    width: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
+    transform: scale(3);
+    margin-left: 80px;
   }
 
   h1 {
